@@ -1,0 +1,62 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Inter, sans-serif;
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+  background-color: #141414;
+  color: white;
+  line-height: 1.4; }
+
+img {
+  display: block;
+  max-width: 5rem;
+  margin: 0 auto;
+  border-radius: 50%; }
+
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 0; }
+
+p {
+  font-size: 0.875rem; }
+
+.location {
+  color: #c5f82a;
+  font-weight: bold;
+  margin-top: 0.25em; }
+
+.quote {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em; }
+
+.card {
+  background-color: #1f1f1f;
+  padding: 1.5em;
+  max-width: 50rem;
+  text-align: center;
+  border-radius: 0.5em; }
+  .card .social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 1em; }
+    .card .social-links .btn {
+      display: block;
+      cursor: pointer;
+      padding: 0.75em 2em;
+      background-color: #333333;
+      color: white;
+      font-family: inherit;
+      font-weight: bold;
+      border-radius: 0.5em;
+      border: 0;
+      transition: all .2s ease-in; }
+      .card .social-links .btn:hover, .card .social-links .btn:focus {
+        background-color: #c5f82a;
+        color: #141414; }
